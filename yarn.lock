@@ -9,6 +9,14 @@
   dependencies:
     uuid "^11.1.0"
 
+"@ai-sdk/openai@^4.0.37":
+  version "4.0.37"
+  resolved "https://registry.yarnpkg.com/@ai-sdk/openai/-/openai-4.0.37.tgz#9bf2be5d782db9001fed3261ae7cfab2b252e89b"
+  integrity sha512-rQIdkvqHaqyu94zMJKkhucRwsyTpYUmI+vrH/Dm1Erc6ypURikOV+9e51Pni6RL8IxFlu2bv6y8hA1ghzCy7Gw==
+  dependencies:
+    "@ai-sdk/provider" "4.0.7"
+    "@ai-sdk/provider-utils" "5.0.26"
+
 "@ai-sdk/provider-utils-v5@npm:@ai-sdk/provider-utils@3.0.30":
   version "3.0.30"
   resolved "https://registry.yarnpkg.com/@ai-sdk/provider-utils/-/provider-utils-3.0.30.tgz#c9e611246706c8f5b617ad8c75eefb16479f47e9"
@@ -36,6 +44,17 @@
     "@standard-schema/spec" "^1.1.0"
     "@workflow/serde" "4.1.0"
     eventsource-parser "^3.0.8"
+
+"@ai-sdk/provider-utils@5.0.26":
+  version "5.0.26"
+  resolved "https://registry.yarnpkg.com/@ai-sdk/provider-utils/-/provider-utils-5.0.26.tgz#a318a7872e994774b60ae15196c05e97c4d6baed"
+  integrity sha512-0mqhqx+Dcv+msI84+zkbLXmnCHb/mpkYJ9DU3HBvB1px+UjFQss4lLZqRCSzJ0w3NxwQk4Ishk7cP0r8wEQD5w==
+  dependencies:
+    "@ai-sdk/provider" "4.0.7"
+    "@standard-schema/spec" "^1.1.0"
+    "@workflow/serde" "4.1.0"
+    eventsource-parser "^3.0.8"
+    undici "^7.28.0"
 
 "@ai-sdk/provider-v5@npm:@ai-sdk/provider@2.0.3":
   version "2.0.3"
@@ -76,6 +95,13 @@
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/@ai-sdk/provider/-/provider-4.0.4.tgz#7b1a3616d3e1c731a06a90f0a0e26e4d767a5b25"
   integrity sha512-tbHKNLirllUNF3ZlkCsXnwab2ZV1Sl4b1H/Cp9ruCce15IBmskE8Gwkk0yo9xDWY+jho2of7lVXtwSsyrq7cwQ==
+  dependencies:
+    json-schema "^0.4.0"
+
+"@ai-sdk/provider@4.0.7":
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/@ai-sdk/provider/-/provider-4.0.7.tgz#5c0a2df39b57ca6f63c745dcc9cb0e684a94593d"
+  integrity sha512-6or44XprPzKbr8zkmzosowSE0pxkvJcoojBL+mCZvPUt3kvXp3XSNqeVun9golb1acEfSo6yaEBRT18h2VU+1Q==
   dependencies:
     json-schema "^0.4.0"
 
@@ -3887,6 +3913,11 @@ undici-types@~8.3.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-8.3.0.tgz#44e9fc9f3244648cdea35e4f9bb2d681e9410809"
   integrity sha512-j375ScV60dom+YkPFIfTLcOiPxkN/buHz5GobjLhixFuANaNs3C9l4GmrWqejgXWJ7BbJcFYpTEUkS1Ge8bpZQ==
+
+undici@^7.28.0:
+  version "7.29.0"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-7.29.0.tgz#ae0f6f62e06e057a9cbb7b2b5fde2bb74f791b8f"
+  integrity sha512-IDxfleLmmbSskfWSUATiN1nfn2rDuvnMOqb5CWR92iIfojA0Ud+ulOAAEQ57LPr9rWmsreUyf5lwyao+7GNNVw==
 
 unicorn-magic@^0.3.0:
   version "0.3.0"
