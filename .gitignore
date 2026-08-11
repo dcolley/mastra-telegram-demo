@@ -1,0 +1,8 @@
+node_modules/
+.mastra/
+.env
+dist/
+*.db
+*.db-*
+yarn-error.log
+.DS_Store
